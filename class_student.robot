@@ -1,9 +1,11 @@
 *** Settings ***
 Documentation    Student class program using robot
 Library     StudentClass.py     ${name}     ${age}
+
 *** Variables ***
-${name}=    puja
-${age}=     29
+${name}
+${age}
+
 *** Test Cases ***
 Student Class Programme
     ${output_student_class}=    Student Detail
