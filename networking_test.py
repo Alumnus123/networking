@@ -10,3 +10,5 @@ def add(a, b, *arg):
 
 z = add(1, 2, 3, 4)
 logging.info(z)
+
+

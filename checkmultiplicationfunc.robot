@@ -10,3 +10,4 @@ Calculate the multiplication for two numbers
     ${output_of_first_test}=     Multiplication Of Two Num
     ...     ${first_test}[first_number]
     ...     ${first_test}[second_number]
+    Log    Output of multiplication ${output_of_first_test}
