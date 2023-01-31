@@ -11,4 +11,6 @@ Library    sum_of_list.py
 calculate sum of the ist
     ${output_of_first_test}=    Sum List
     ...     ${first_test}[data_list]
-
+    ${list_output}=  Get List
+    ${sum_output}=   Sum List    ${list_output}
+    Log    ${sum_output}
