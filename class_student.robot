@@ -1,12 +1,16 @@
 *** Settings ***
 Documentation    Student class program using robot
-Library     StudentClass.py     ${name}     ${age}
+Library     Student.py
+
 
 *** Variables ***
-${name}
-${age}
+${name}   foo
+${age}    10
 
 *** Test Cases ***
 Student Class Programme
-    ${output_student_class}=    Student Detail
-    Log    ${output_student_class}
+    ${obj}=  Create Student Obj    ${name}    ${age}
+    ${ret}=  Show Detail    ${obj}
+    Log    ${ret}
+
+
