@@ -6,3 +6,6 @@ Library    parse_yaml_file.py
 yaml Programme
     ${yamlObj}=  Open Yaml File
     Log    ${yamlObj}
+    ${yamlAccess}=  Access Yaml File
+    Log    ${yamlAccess}
+
