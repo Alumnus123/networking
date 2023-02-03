@@ -1,0 +1,5 @@
+Name: "Department"
+Degree: "BTech"
+Student_details:
+  Student_Name: "Akash"
+  Stream: "ECE"
