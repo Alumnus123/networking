@@ -1,4 +1,4 @@
-import logging
+import log_example
 
 
 def add(a, b, *arg):

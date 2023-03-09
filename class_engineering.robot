@@ -3,8 +3,8 @@ Documentation       Engineering class programme using robot
 Library     EngineeringClass.py     ${department}       ${student}
 
 *** Variables ***
-${department}
-${student}
+${department}   ECE
+${student}  64
 
 *** Test Cases ***
 Engineering Class Programme

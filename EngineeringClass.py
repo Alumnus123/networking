@@ -4,5 +4,4 @@ class EngineeringClass:
         self.Student = student
 
     def dept_details(self):
-        return self.Department + " has "+ self.Student + " students"
-
+        return self.Department + " has " + self.Student + " students"
